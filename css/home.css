@@ -1,19 +1,98 @@
 body {
   background: linear-gradient( rgba(228,105,103,0.4), rgba(228,105,103,0.4) ),url(sakura.png);
-  width: 100%;
+  background-position: center;
+  line-height: 1.2;
   font-size: 16px;
 }
 
-h1 {
-  color: #fff;
-  font-size: 6rem;
-  top: 45%;
+.container {
+  top: 50%;
   left: 50%;
+  width: 960px;
+  border: 1px solid #fff;
+  padding: 10px;
+  text-align: center;
   position: absolute;
   transform: translate(-50%,-50%);
 }
 
-@media screen and (max-width: 768px) {
-  font-size: 2rem;
-  text-align:center;
+h1 {
+  color: #fff;
+  margin: 30px 0 ;
+  letter-spacing: 12px;
+  font-size: 6rem;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+button,
+input:focus {
+  outline: none;
+}
+
+input {
+  width: 75%;
+  text-align: center;
+  background: #1c1c1c;
+
+}
+
+button {
+  width: 75%;
+  margin: 7px 0;
+  background: #E46967;
+}
+
+.sub {
+  line-height: 2.5;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #DC615F;
+  transition: background 0.3s ease-in-out;
+}
+
+/*Import Media Queries*/
+
+@media screen and (min-width: 786px) {
+  .container {
+    width: 90%;
+  }
+
+  .sub {
+    width: 60%;
+  }
+}
+
+ /*
+ *
+ *  S - Tablet
+ *
+ */
+@media screen and (max-width: 786px) {
+
+  .container {
+    width: 90%;
+  }
+
+  h1 {
+    font-size:  4rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  .sub {
+    width: 80%;
+  }
 }
