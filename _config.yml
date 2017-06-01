@@ -5,6 +5,9 @@ baseurl: ""
 url: https://ilianalopezblog.com
 enforce_ssl: ilianalopezblog.com
 
+# Google services
+google_analytics: UA-100374407-1
+
 markdown: kramdown
 
 gems:
