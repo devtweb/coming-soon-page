@@ -1,11 +1,14 @@
 title: Coming Soon | Iliana lopez Blog
 email: your-email@domain.com
 description: This is a coming soon landing page for a upcoming blog website.
-baseurl: "/coming-soon" 
+baseurl: "/coming-soon"
 url: https://ilianalopezblog.com
 enforce_ssl: ilianalopezblog.com
 
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
