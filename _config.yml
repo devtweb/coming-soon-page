@@ -1,14 +1,11 @@
 title: Coming Soon | Iliana lopez Blog
 email: your-email@domain.com
-description: This is a coming soon landing page for a upcoming
-blog website. The author of the blog will be Iliana Lopez.
-baseurl: "/coming-soon" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: This is a coming soon landing page for a upcoming blog website.
+baseurl: "/coming-soon" 
+url: "" 
 
-# Build settings
 markdown: kramdown
-gems:
-  - jekyll-feed
+
 exclude:
   - Gemfile
   - Gemfile.lock
