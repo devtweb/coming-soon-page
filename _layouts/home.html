@@ -20,9 +20,9 @@
       <p>Subscribete para recibir una notificacion en tu buzón de correo electrónico
        en cuanto mi pagina este lista. </p>
 
-      <form action={{ "https://formspree.io/contact@ilianalopezblog.com" | encrypt }} method="POST">
+      <form action={{ 'https://formspree.io/contact@ilianalopezblog.com' | url_encode }} method="POST">
         <input class="sub" type="email" name="email" placeholder="correo electrónico" required>
-        <button class="sub" type="button" name="button">Enviar</button>
+        <button class="sub" type="submit" name="button">Enviar</button>
       </form>
     </div>
   </body>
