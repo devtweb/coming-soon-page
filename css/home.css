@@ -12,3 +12,7 @@ h1 {
   position: absolute;
   transform: translate(-50%,-50%);
 }
+
+@media screen and (max-wigth: 768px) {
+  font-size: 3rem;
+}
